@@ -19,7 +19,7 @@ class ExampleController: UIViewController {
         super.viewDidLoad()
         view.addSubview(cameraView)
         view.addConstraintsWithFormat("H:|[v0]|", views: cameraView)
-        view.addConstraintsWithFormat("V:|[v0]|", views: cameraView)
+        view.addConstraintsWithFormat("V:|[v0(500)]|", views: cameraView)
         cameraView.setupCamera()
     }
 }

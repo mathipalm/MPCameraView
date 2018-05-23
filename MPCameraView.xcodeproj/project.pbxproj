@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE4480041EF5A9DF0028772A /* Quadrilateral.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE4480031EF5A9DF0028772A /* Quadrilateral.swift */; };
 		EE44A7341EF076A800AD6135 /* Example.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE44A7331EF076A800AD6135 /* Example.storyboard */; };
 		EE44A7361EF076DF00AD6135 /* ExampleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44A7351EF076DF00AD6135 /* ExampleController.swift */; };
 		EE44A7391EF0776500AD6135 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE44A7381EF0776500AD6135 /* Extension+View.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE4480031EF5A9DF0028772A /* Quadrilateral.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Quadrilateral.swift; path = MPCamera/Models/Quadrilateral.swift; sourceTree = "<group>"; };
 		EE44A7331EF076A800AD6135 /* Example.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Example.storyboard; path = Example/Example.storyboard; sourceTree = "<group>"; };
 		EE44A7351EF076DF00AD6135 /* ExampleController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExampleController.swift; path = Example/ExampleController.swift; sourceTree = "<group>"; };
 		EE44A7381EF0776500AD6135 /* Extension+View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Extension+View.swift"; path = "Extensions/Extension+View.swift"; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE4480051EF5A9E30028772A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EE4480031EF5A9DF0028772A /* Quadrilateral.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		EE44A7371EF0774C00AD6135 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				EEDE75E71EEF1F1D00D468B6 /* MPCameraView.swift */,
+				EE4480051EF5A9E30028772A /* Models */,
 			);
 			name = MPCamera;
 			sourceTree = "<group>";
@@ -171,6 +182,7 @@
 				EE44A7361EF076DF00AD6135 /* ExampleController.swift in Sources */,
 				EE44A7391EF0776500AD6135 /* Extension+View.swift in Sources */,
 				EEDE75D41EEF1E9E00D468B6 /* AppDelegate.swift in Sources */,
+				EE4480041EF5A9DF0028772A /* Quadrilateral.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
